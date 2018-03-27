@@ -60,7 +60,7 @@ public class AndroidMeActivity extends AppCompatActivity {
     // Create a new leg BodyPartFragment
         BodyPartFragment legPartFragment = new BodyPartFragment();
 
-        legPartFragment.setmImageList(AndroidImageAssets.getBodies());
+        legPartFragment.setmImageList(AndroidImageAssets.getLegs());
         legPartFragment.setmImageIndex(1);
 
         fragmentManager.beginTransaction()
