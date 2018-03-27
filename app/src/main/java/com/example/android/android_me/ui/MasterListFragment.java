@@ -16,27 +16,44 @@
 
 package com.example.android.android_me.ui;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.example.android.android_me.R;
 import com.example.android.android_me.data.AndroidImageAssets;
 
 
+
 // This fragment displays all of the AndroidMe images in one large list
 // The list appears as a grid of images
 public class MasterListFragment extends Fragment {
 
-    // TODO (1) Define a new interface OnImageClickListener that triggers a callback in the host activity
+    OnImageClickListener mCallback;
+    // Completed (1) Define a new interface OnImageClickListener that triggers a callback in the host activity
         // The callback is a method named onImageSelected(int position) that contains information about
         // which position on the grid of images a user has clicked
+    public interface OnImageClickListener {
+        void onImageSelected(int position);
+    }
 
-    // TODO (2) Override onAttach to make sure that the container activity has implemented the callback
+    // Completed (2) Override onAttach to make sure that the container activity has implemented the callback
+    @Override
+    public void onAttach(Context context) {
 
+        try {
+            mCallback = (OnImageClickListener) context;
+        } catch (ClassCastException e) {
+            throw new ClassCastException(context.toString() + "must implement OnImageClickListener");
+        }
+
+        super.onAttach(context);
+    }
 
     // Mandatory empty constructor
     public MasterListFragment() {
@@ -59,7 +76,13 @@ public class MasterListFragment extends Fragment {
         // Set the adapter on the GridView
         gridView.setAdapter(mAdapter);
 
-        // TODO (3) Set a click listener on the gridView and trigger the callback onImageSelected when an item is clicked
+        // Completed (3) Set a click listener on the gridView and trigger the callback onImageSelected when an item is clicked
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                mCallback.onImageSelected(i);
+            }
+        });
 
         // Return the root view
         return rootView;
