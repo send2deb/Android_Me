@@ -1,0 +1,7 @@
+
+{squid:S00116"YRename this field "IMAGE_LIST_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÌ—ıÿÿÿÿ8Ø£¦Í¦,
+Bsquid:S1170"!Make this final field static too.(ÁÌ—ıÿÿÿÿ8Ø£¦Í¦,
+Bsquid:S1170"!Make this final field static too.(æ¿‚Øûÿÿÿÿ8Ø£¦Í¦,
+{squid:S00116"YRename this field "LIST_INDEX_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¿‚Øûÿÿÿÿ8Ø£¦Í¦,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Û±Õú8Ø£¦Í¦,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ëäÙ¢8Ø£¦Í¦,
