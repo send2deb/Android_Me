@@ -1,0 +1,6 @@
+
+zsquid:S1450"YRemove the "mBodyIndex" field and declare it as a local variable in the relevant methods.(—û‡ıÿÿÿÿ8ÔÆ‰ê¦,
+ysquid:S1450"XRemove the "mLegIndex" field and declare it as a local variable in the relevant methods.(—ùØÿÿÿÿÿ8ÔÆ‰ê¦,
+osquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(‰ûèêşÿÿÿÿ8ïÀ€ê¦,
+usquid:S1450"YRemove the "mHeadIndex" field and declare it as a local variable in the relevant methods.(ñ¨ûß8Ê‹‰ê¦,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ëäÙ¢8ïÀ€ê¦,

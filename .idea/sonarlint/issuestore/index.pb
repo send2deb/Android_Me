@@ -1,0 +1,23 @@
+
+`
+0app/src/main/res/layout/fragment_master_list.xml,8/3/838fff326388ffb3ba86fb6045a036535a59a93b
+z
+Japp/src/main/java/com/example/android/android_me/ui/MasterListAdapter.java,1/d/1dbb56d43d1f3589404463e795f655e7fcac32c6
+Y
+)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+{
+Kapp/src/main/java/com/example/android/android_me/ui/MasterListFragment.java,a/e/aea3421f23c4a9fa4ea7224ca0351d4f33041658
+}
+Mapp/src/main/java/com/example/android/android_me/data/AndroidImageAssets.java,3/3/3339cfdbea8f545074ce50093ac358a5c0db6767
+y
+Iapp/src/main/java/com/example/android/android_me/ui/BodyPartFragment.java,d/5/d56f9f7f7c02007fc2ee1b0a93e603bd39959b7a
+^
+.app/src/main/res/layout/fragment_body_part.xml,c/3/c33b5718c3d467e75c7228fd5dd9e8accb9d5866
+_
+/app/src/main/res/layout/activity_android_me.xml,7/f/7f11e22b2a70200b86aae0b3c4484dd11f4e8cf6
+u
+Eapp/src/main/java/com/example/android/android_me/ui/MainActivity.java,d/8/d80bd7c9d82a41b2b594254366d949e4ff5eecf5
+z
+Japp/src/main/java/com/example/android/android_me/ui/AndroidMeActivity.java,8/1/81328eab40614a81aff12ede800510c5f2545ee3
