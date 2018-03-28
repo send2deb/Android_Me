@@ -1,0 +1,5 @@
+
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ëäÙ¢8¬æñê¦,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ŸŸ¤Òùÿÿÿÿ8’¢Œë¦,
+osquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(Æº¦õüÿÿÿÿ8¬æñê¦,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(×ÕãŸýÿÿÿÿ8ôÞÿê¦,
